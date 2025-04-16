@@ -32,6 +32,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 ------ Tab
      local Tab1o = MakeTab({Name = "Script Farm"})
      local Tab2o = MakeTab({Name = "Script Dead Rails"})
+local Tab3o = MakeTab({Name = "Script Dead Rails Có Key"})
+
      
 ------- BUTTON
     
@@ -80,4 +82,25 @@ AddButton(Tab2o, {
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernusScripts/Null-Fire/main/Loader"))()
   end
+  })
+
+AddButton(Tab1o, {
+     Name = "Min Gaming Hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinAPEng"))()
+  end
+  })
+
+AddButton(Tab1o, {
+     Name = "Min Hub V2",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinXoE"))()
+ end
+  })
+
+AddButton(Tab3o, {
+     Name = "Nebula Hub ",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/NebulaHubOfc/Public/refs/heads/main/Loader.lua"))()
+ end
   })
