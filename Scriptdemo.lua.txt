@@ -77,7 +77,7 @@ AddButton(Tab2o, {
 
 AddButton(Tab2o, {
      Name = "Null Fire"
-    Callback = function(
+    Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernusScripts/Null-Fire/main/Loader"))()
   end
   })
