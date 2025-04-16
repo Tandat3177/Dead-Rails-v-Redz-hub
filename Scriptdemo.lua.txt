@@ -21,7 +21,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
   })
 
        MinimizeButton({
-       Image = "http://www.roblox.com/asset/?id=83190276951914",
+       Image = "http://www.roblox.com/asset/?id=97470100308506",
        Size = {60, 60},
        Color = Color3.fromRGB(10, 10, 10),
        Corner = true,
@@ -72,5 +72,12 @@ AddButton(Tab1o, {
      Name = "Script Full Moon",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/giahuy210/Hop.Full.Moon/refs/heads/main/Ghuy.Hop"))()
+  end
+  })
+
+AddButton(Tab2o, {
+     Name = "Null Fire",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernusScripts/Null-Fire/main/Loader"))()
   end
   })
