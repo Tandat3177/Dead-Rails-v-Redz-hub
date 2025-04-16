@@ -47,7 +47,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/r
   end
   })
   
-  AddButton(Tab1o, {
+  AddButton(Tab2o, {
      Name = "Tp castle ko tính",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/caomod2077/Script/refs/heads/main/DeadRails_BypassTp_Castle.lua"))()  
@@ -68,7 +68,7 @@ AddButton(Tab1o, {
   end
   })
 
-AddButton(Tab1o, {
+AddButton(Tab2o, {
      Name = "Tele Nhà Máy",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/thiennrb7/Script/refs/heads/main/tplab.txt"))()
