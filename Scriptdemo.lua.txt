@@ -74,10 +74,3 @@ AddButton(Tab2o, {
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/thiennrb7/Script/refs/heads/main/tplab.txt"))()
   end
   })
-
-AddButton(Tab2o, {
-     Name = "Null Fire"
-    Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernusScripts/Null-Fire/main/Loader"))()
-  end
-  })
