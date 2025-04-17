@@ -127,3 +127,10 @@ AddButton(Tab4o, {
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/RedJDarks/MAIN/refs/heads/main/ControlRecreate"))()
   end
   })
+
+AddButton(Tab4o, {
+     Name = "Auto Win",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Zayn31214/name/refs/heads/main/SterlingNew"))()
+  end
+  })
