@@ -105,3 +105,17 @@ AddButton(Tab3o, {
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/NebulaHubOfc/Public/refs/heads/main/Loader.lua"))()
  end
   })
+
+AddButton(Tab2o, {
+     Name = "Two Gun",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/TwoGunVolley/Dedrail/refs/heads/main/Protected_8860927939362090.txt"))()
+  end
+  })
+
+AddButton(Tab2o, {
+     Name = "🤨",
+    Callback = function()
+	  loadstring(game:HttpGet("https://pastefy.app/wa3v2Vgm/raw"))("Spider Script")
+  end
+  })
