@@ -33,6 +33,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      local Tab1o = MakeTab({Name = "Script Blox Fruit"})
      local Tab2o = MakeTab({Name = "Script Dead Rails"})
 local Tab3o = MakeTab({Name = "Script Dead Rails Có Key"})
+local Tab4o = MakeTab({Name = "Script Blue Lock"})
 
      
 ------- BUTTON
@@ -117,5 +118,12 @@ AddButton(Tab2o, {
      Name = "🤨",
     Callback = function()
 	  loadstring(game:HttpGet("https://pastefy.app/wa3v2Vgm/raw"))("Spider Script")
+  end
+  })
+
+AddButton(Tab4o, {
+     Name = "Control Ball",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/RedJDarks/MAIN/refs/heads/main/ControlRecreate"))()
   end
   })
