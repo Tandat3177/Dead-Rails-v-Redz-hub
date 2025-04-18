@@ -41,14 +41,7 @@ local Tab4o = MakeTab({Name = "Script Blue Lock"})
     AddButton(Tab1o, {
      Name = "Redz Hub",
     Callback = function()
-	  local Settings = {
-  JoinTeam = "Pirates"; -- Pirates/Marines
-  Translator = true; -- true/false
-}
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))(Settings)
-  end
-  })
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/newredz/BloxFruits/refs/heads/main/Source.luau"))()
   
   AddButton(Tab2o, {
      Name = "Tp castle ko tính",
