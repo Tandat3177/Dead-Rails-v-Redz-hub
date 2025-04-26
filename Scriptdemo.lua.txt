@@ -107,3 +107,10 @@ AddButton(Tab2o, {
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/TwoGunVolley/Dedrail/refs/heads/main/Protected_8860927939362090.txt"))()
   end
   })
+
+AddButton(Tab2o, {
+     Name = "Aimbot",
+    Callback = function()
+	  loadstring(game:HttpGet("https://rawscripts.net/raw/Dead-Rails-Alpha-Alpha-Aimbot-with-bind-30004"))()
+  end
+  })
