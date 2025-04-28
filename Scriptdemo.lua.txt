@@ -97,7 +97,7 @@ AddButton(Tab4o, {
 AddButton(Tab2o, {
      Name = "Null Fire",
     Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernusScripts/Null-Fire/main/Loader"))()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernusScripts/Null-Fire/main/Loader"))("DingaScripts")
   end
   })
 
